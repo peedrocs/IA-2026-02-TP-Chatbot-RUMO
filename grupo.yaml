@@ -6,19 +6,19 @@
 # =============================================================================
 
 grupo:
-  nome: "TODO: nome do grupo (ex.: Grupo 3)"
+  nome: "chatbot RUMO"
   integrantes:          # 3 a 4 integrantes
-    - nome: "TODO"
-      rga: "TODO"
-    - nome: "TODO"
-      rga: "TODO"
-    - nome: "TODO"
-      rga: "TODO"
+    - nome: "Guilherme Carvalho de Oliveira"
+      rga: "2025.1906.010-4"
+    - nome: "Lucas dos Reis Schweich"
+      rga: "2025.1906.005-8"
+    - nome: "Pedro Cavalcante Sanches"
+      rga: "2025.1906.009-0"
 
 tema:
-  nome: "TODO: tema validado com o professor"
+  nome: "Chatbot de mobilidade acadêmica e intercâmbio da UFMS"
   descricao: >
-    TODO: uma ou duas frases dizendo o que o bot faz e para quem.
+    Busca auxiliar estudantes a se organizarem e tirar duvídas para se prepararem para uma mobilidade acadêmica.
 
 dados:                  # caminhos relativos a este arquivo - não altere
   treino: dados/treino.csv
@@ -37,9 +37,9 @@ llm:
   max_tokens: 300
   usar_em: [intencoes, chitchat]         # nós em que o LLM redige a resposta
   persona: >
-    TODO: quem é o bot e como ele fala. Ex.: "Você é o Rex, assistente virtual do
-    Restaurante Universitário. Seja cordial, simples e direto."
-  contato: "TODO: para onde encaminhar o que o bot não sabe (setor, e-mail...)"
+    TODO: quem é o bot e como ele fala. Ex.: "Você é o RUMO, assistente virtual de mobilidade acadêmica.
+    Seja cordial, simples e direto."
+  contato: "email: aginter@ufms.br telefone: +55 67 3345 3943"
   max_frases: 3
   turnos_historico: 3
 
@@ -61,25 +61,33 @@ roteamento:
 # De 5 a 10 intenções. O nome (chave) deve ter só letras minúsculas sem acento,
 # dígitos e "_". "descricao" aparece nas mensagens do bot ("Posso ajudar com: ...").
 intencoes:
-  TODO_intencao_1:
-    descricao: "TODO"
+  proficiencia:
+    descricao: "Exigência de idioma e certificados aceitos"
     resposta: >
       TODO: resposta fixa curta (usada sem LLM e na avaliação automática). Com o
       LLM ligado, o bot responde a partir dos documentos da pasta documentos/.
-  TODO_intencao_2:
-    descricao: "TODO"
+  custos_auxilio:
+    descricao: "Custo do intercâmbio, bolsas e auxílios financeiros"
     resposta: >
       TODO
-  TODO_intencao_3:
-    descricao: "TODO"
+  destino_parcerias:
+    descricao: "Universidades conveniadas e países disponíveis"
     resposta: >
       TODO
-  TODO_intencao_4:
-    descricao: "TODO"
+  mobilidade_nacional:
+    descricao: "Cursar um período em outra universidade brasileira"
     resposta: >
       TODO
-  TODO_intencao_5:
-    descricao: "TODO"
+  documentos_viagem:
+    descricao: "Visto, passaporte, seguro saúde, vacinas e exigências de entrada em outros países"
+    resposta: >
+      TODO
+  inscricao:
+    descricao: "Editais abertos, prazos e formas de me candidatar"
+    resposta: >
+      TODO
+  requisitos:
+    descricao: "Requisitos acadêmicos para participação (CRA, semestre, vínculo)"
     resposta: >
       TODO
 
