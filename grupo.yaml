@@ -37,8 +37,9 @@ llm:
   max_tokens: 300
   usar_em: [intencoes, chitchat]         # nós em que o LLM redige a resposta
   persona: >
-    TODO: quem é o bot e como ele fala. Ex.: "Você é o RUMO, assistente virtual de mobilidade acadêmica.
-    Seja cordial, simples e direto."
+    Você é o RUMO, assistente virtual de mobilidade acadêmica.
+    Seja cordial, simples e direto. Responda apenas com base nos trechos.
+    Se a informação não estiver neles indique o contato da AGINTER
   contato: "email: aginter@ufms.br telefone: +55 67 3345 3943"
   max_frases: 3
   turnos_historico: 3
@@ -64,40 +65,52 @@ intencoes:
   proficiencia:
     descricao: "Exigência de idioma e certificados aceitos"
     resposta: >
-      TODO: resposta fixa curta (usada sem LLM e na avaliação automática). Com o
-      LLM ligado, o bot responde a partir dos documentos da pasta documentos/.
+      Depende do destino: cada vaga define o idioma e o nível, geralmente B1
+      (espanhol, francês, alemão) ou B2 (inglês), com testes como TOEFL, IELTS
+      ou DELF. Confira a vaga no Quadro de Oportunidades da AGINTER.
   custos_auxilio:
     descricao: "Custo do intercâmbio, bolsas e auxílios financeiros"
     resposta: >
-      TODO
+      Em geral não há mensalidade, mas passagem, visto, seguro, moradia e
+      alimentação são por sua conta. A UFMS oferece bolsa de R$ 1.500 por mês,
+      por edital próprio.
   destino_parcerias:
     descricao: "Universidades conveniadas e países disponíveis"
     resposta: >
-      TODO
+      As universidades parceiras e as vagas estão no Quadro de Oportunidades
+      2026 da AGINTER, com opções em países como Portugal, Espanha, Argentina,
+      Colômbia, Alemanha, França, Itália e Japão.
   mobilidade_nacional:
     descricao: "Cursar um período em outra universidade brasileira"
     resposta: >
-      TODO
+      Pelo Programa Andifes você pode cursar até dois semestres em outra
+      federal, com a vaga garantida na UFMS. É preciso ter 20% do curso
+      concluído e no máximo duas reprovações nos dois últimos semestres.
   documentos_viagem:
     descricao: "Visto, passaporte, seguro saúde, vacinas e exigências de entrada em outros países"
     resposta: >
-      TODO
+      Você vai precisar de passaporte, visto (se o país exigir) e seguro saúde
+      internacional para todo o período. Alguns países pedem o certificado de
+      vacinação contra febre amarela.
   inscricao:
     descricao: "Editais abertos, prazos e formas de me candidatar"
     resposta: >
-      TODO
+      A inscrição é feita pelo SIGProj (sigproj.ufms.br), escolhendo uma
+      universidade do Quadro de Oportunidades dentro do prazo de cada vaga.
+      Acompanhe os editais em aginter.ufms.br.
   requisitos:
     descricao: "Requisitos acadêmicos para participação (CRA, semestre, vínculo)"
     resposta: >
-      TODO
+      Na graduação, é preciso estar matriculado, ter cursado entre 20% e 80% do
+      curso e ter MGA de pelo menos 6,5. Algumas vagas exigem requisitos extras.
 
 # Respostas dos nós que não são intenções. {assuntos} vira a lista de descrições
 # das intenções; {opcao1}/{opcao2}, as duas intenções mais prováveis.
 respostas:
   chitchat:
-    saudacao: "Olá! Como posso ajudar?"
-    agradecimento: "Por nada!"
+    saudacao: "Olá estudante! Sou RUMO, assistente de mobilidade acadêmica da UFMS. Posso ajudar com : {assuntos}"
+    agradecimento: "Por nada! Boa sorte com seu intercâmbio!"
     despedida: "Até logo!"
-    padrao: "Sou um assistente automático e posso ajudar com: {assuntos}."
-  fora_dominio: "Desculpe, não sei responder sobre isso. Posso ajudar com: {assuntos}."
+    padrao: "Sou RUMO, um assistente automático e posso ajudar com: {assuntos}."
+  fora_dominio: "Desculpe, não sei responder sobre esse assunto. Posso ajudar com: {assuntos}."
   esclarecer: "Não tenho certeza se entendi. Sua dúvida é sobre {opcao1} ou sobre {opcao2}?"

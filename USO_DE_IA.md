@@ -15,7 +15,7 @@
 |---|---|---|
 | _Exemplo: OpenRouter, modelo openai/gpt-6-luna_ | _chave do grupo, via código_ | _todos_ |
 | _Exemplo: ChatGPT (versão gratuita)_ | _navegador_ | _Fulana_ |
-| TODO | | |
+| _Claude Code_ | _local_ | _Pedro_ |
 
 ## 2. Usos, um por linha
 
@@ -25,10 +25,11 @@
 | 2 | _Chatbot_ | _Redige as respostas das intenções e do chitchat_ | _prompts em `chatbot/llm.py` + persona do `grupo.yaml`_ | _Ajustamos a persona 3 vezes após testes (seção X do artigo)_ |
 | 3 | _Código_ | _Sugeriu a função que plota a curva de validação_ | _"como plotar o resultado do GridSearchCV em função de C"_ | _Adaptamos nomes e eixos; entendemos e testamos_ |
 | 4 | _Escrita_ | _Revisou a gramática da Introdução_ | _"revise a gramática sem mudar o conteúdo: ..."_ | _Aceitamos parte das sugestões_ |
-| TODO | | | | |
+| 5 | _Tratamento das Fontes_ | _Limpou os arquivos HTML5 e transformou para MD e transcreveu os arquivos pdf escaneados e colocou em um MD_ | _Transcreva o conteúdo presente nesses arquivos sem mudar o conteúdo e transforme em MarkDown_ | _verificamos se as informações estavam de acordo com os arquivos base_ |
 
 ## 3. O que NÃO foi feito com IA
 
+Definição de intenções, escolha das fontes, preenchimento do **grupo.yaml**, ...
 TODO: digam explicitamente o que foi feito sem IA (ex.: definição das intenções,
 frases do teste, análise dos erros, conclusões).
 
