@@ -7,7 +7,7 @@
 >
 > Este arquivo é o rascunho de trabalho da declaração: preencham **ao longo** do
 > projeto (não no último dia) e copiem a tabela para o artigo. Apaguem as linhas de
-> exemplo e todas as marcações TODO.
+> exemplo e todas as marcações.
 
 ## 1. Ferramentas usadas
 
@@ -26,13 +26,17 @@
 | 3 | _Código_ | _Sugeriu a função que plota a curva de validação_ | _"como plotar o resultado do GridSearchCV em função de C"_ | _Adaptamos nomes e eixos; entendemos e testamos_ |
 | 4 | _Escrita_ | _Revisou a gramática da Introdução_ | _"revise a gramática sem mudar o conteúdo: ..."_ | _Aceitamos parte das sugestões_ |
 | 5 | _Tratamento das Fontes_ | _Limpou os arquivos HTML5 e transformou para MD e transcreveu os arquivos pdf escaneados e colocou em um MD_ | _Transcreva o conteúdo presente nesses arquivos sem mudar o conteúdo e transforme em MarkDown_ | _verificamos se as informações estavam de acordo com os arquivos base_ |
+| 6 |_Fontes fictícias_| _Gerou documentos ficticíos baseados nos documentos originais coletados_ | _Utilizando as fontes coletadas como base, crie documentos markdown fictícios para cada uma das intenções buscando aumentar a quantidade de fontes a serem analisadas pelo chatbot crie dois documentos para cada intenção_| _Foram validados para ver se contribuíam na resposta do modelo_ |
+
 
 ## 3. O que NÃO foi feito com IA
 
-Definição de intenções, escolha das fontes, preenchimento do **grupo.yaml**, ...
+Definição de intenções, escolha das fontes, preenchimento do **grupo.yaml**, Coleta de frases, rotulação das perguntas coletadas para treinamento e teste com Google Forms
+
 TODO: digam explicitamente o que foi feito sem IA (ex.: definição das intenções,
 frases do teste, análise dos erros, conclusões).
 
 ## 4. Reflexão (2 a 4 frases)
+
 
 TODO: onde a IA ajudou, onde atrapalhou ou errou, e como vocês verificaram o que ela produziu.
