@@ -42,8 +42,6 @@ III – comunicar formalmente à Instituição remetente a aceitação do aluno 
 IV – vetar a permanência do aluno por período superior a dois semestres letivos, exceto quando houver prorrogação de prazo;
 V – emitir documentação comprobatória das disciplinas cursadas e demais componentes curriculares com notas ou conceitos e frequência.
 
-> Observação: a Cláusula Terceira não consta no PDF recebido (o texto passa da Cláusula Segunda para a Cláusula Quarta).
-
 ## CLÁUSULA QUARTA – DA VIGÊNCIA E RESCISÃO
 
 O presente convênio tem vigência por prazo indeterminado podendo haver o desligamento de qualquer das conveniadas mediante notificação remetida à ANDIFES, com antecedência mínima de trinta dias.
