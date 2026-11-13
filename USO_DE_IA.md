@@ -27,6 +27,7 @@
 | 4 | _Escrita_ | _Revisou a gramática da Introdução_ | _"revise a gramática sem mudar o conteúdo: ..."_ | _Aceitamos parte das sugestões_ |
 | 5 | _Tratamento das Fontes_ | _Limpou os arquivos HTML5 e transformou para MD e transcreveu os arquivos pdf escaneados e colocou em um MD_ | _Transcreva o conteúdo presente nesses arquivos sem mudar o conteúdo e transforme em MarkDown_ | _verificamos se as informações estavam de acordo com os arquivos base_ |
 | 6 |_Fontes fictícias_| _Gerou documentos ficticíos baseados nos documentos originais coletados_ | _Utilizando as fontes coletadas como base, crie documentos markdown fictícios para cada uma das intenções buscando aumentar a quantidade de fontes a serem analisadas pelo chatbot crie dois documentos para cada intenção_| _Foram validados para ver se contribuíam na resposta do modelo_ |
+| 7 | _Geração de dados para treino_ | _Foi utilizado o script de gerar dados que foi disponibilizado_ | _ver `dados/prompts_llm.md`_ | _Analisamos as frases e escolhemos algumas para entrar nos dados de treino, foram criadas 1615, foram escolhidas por volta de 170_ |
 
 
 ## 3. O que NÃO foi feito com IA

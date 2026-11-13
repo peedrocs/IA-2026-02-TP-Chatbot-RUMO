@@ -1,1 +1,201 @@
 texto,intencao,origem
+Quem te desenvolveu?,chitchat,humano
+Bom dia… e começaria as perguntas,chitchat,humano
+Muito obrigado pra ajuda,chitchat,humano
+"""Oi, como você está?""",chitchat,humano
+eai,chitchat,humano
+tmj chat,chitchat,humano
+Obrigadooo,chitchat,humano
+Obrigado,chitchat,humano
+Bom dia/ boa tarde / boa noite,chitchat,humano
+Qual sua exata função e para que você foi desenvolvido? Qual a limitação frente à proposta oferecida?,chitchat,humano
+qual seu nome chat?,chitchat,humano
+obrigada,chitchat,humano
+blz valeu,chitchat,humano
+Olá! Como vai?,chitchat,humano
+Olá chat me chamo (nome) sou um estudante da UFMS e queria que me ajudasse em (problema em questão),chitchat,humano
+Oi,chitchat,humano
+mt obrigada,chitchat,humano
+"Me chamo tal pessoa, e gostaria de fazer uma pergunta ",chitchat,humano
+vc serve pra qje,chitchat,humano
+muito obrigada rumo,chitchat,humano
+tamo junto chat me ajudou demais,chitchat,humano
+Obrigado e boa noite!,chitchat,humano
+me ajude aq,chitchat,humano
+obrigado por ajudar/ responder/ questionar minhas dúvidas,chitchat,humano
+Valeu pela resposta!,chitchat,humano
+"""Obrigado, agora já vou indo""",chitchat,humano
+"Bom dia, boa tarde, boa noite",chitchat,humano
+oii,chitchat,humano
+Dia lindo hein!,chitchat,humano
+onde voce mora?,chitchat,humano
+Quem é você Fulano / Como você funciona,chitchat,humano
+Muito obrigado,chitchat,humano
+"Oi, boa noite!",chitchat,humano
+de onde vc tira as informações,chitchat,humano
+quais os auxílios disponíveis para quem vai realizar intercâmbio pela ufms?,custos_auxilio,humano
+Quanto uma pessoa que gasta pouco gasta em um intercâmbio da faculdade em media?,custos_auxilio,humano
+quanto custa fazer o intercâmbio,custos_auxilio,humano
+"Boa noite, como funciona a questão financeira com relação ao intercâmbio?
+A UFMS oferece bolsas ou auxílios para isso? Se sim, quanto? ",custos_auxilio,humano
+Qual custo para o intercambio? Tem algum retorno/incentivo financeiro?,custos_auxilio,humano
+"Quanto custa fazer um intercambio em X meses, quanto preciso levar em media?",custos_auxilio,humano
+O custo médio da viagem e se há algum tipo de auxilio por parte da UFMS,custos_auxilio,humano
+Quanto é preciso investir para fazer intercâmbio?,custos_auxilio,humano
+quanto vou gastar pra fazer intercâmbio? tem bolsa ou a ufms ajuda com algum dinheiro?,custos_auxilio,humano
+Quais são os custos do intercâmbio e existe alguma bolsa ou ajuda financeira para os estudantes?,custos_auxilio,humano
+quanto custa um intercâmbio para esse lugar,custos_auxilio,humano
+Estimativa financeira de quanto irá custar meu intercâmbio,custos_auxilio,humano
+Como eu posso conseguir um intercÂmbio barato?,custos_auxilio,humano
+Consigo alojamento pela UFMS ?,custos_auxilio,humano
+"A UFMS oferece auxílio nos gastos do intercâmbio, ou tudo deve sair do meu bolso?",custos_auxilio,humano
+Quanto devo levar como dinheiro de emergência?,custos_auxilio,humano
+Eu consigo sobreviver com essa quantidade de dinheiros?,custos_auxilio,humano
+Quais locais acessar para adquirir as bolsas!,custos_auxilio,humano
+Onde tem bons programas de intercâmbio,destino_parcerias,humano
+Quais países a ufms tem parceria para intercâmbio?,destino_parcerias,humano
+Qual é o melhor curso que você me indica?,destino_parcerias,humano
+de acordo com o curso que faço é bom ir para onde?,destino_parcerias,humano
+Quais locais posso ir fazer o intercâmbio?,destino_parcerias,humano
+Quais os países e cidades que voces oferecem?,destino_parcerias,humano
+A duração,destino_parcerias,humano
+Qual melhor país para fazer um intercâmbio,destino_parcerias,humano
+Quais locais estão disponiveis para intercambio?,destino_parcerias,humano
+Quais os melhores lugares para fazer intercâmbio estudantil?,destino_parcerias,humano
+Quanto tempo é um intercâmbio da UFMS?,destino_parcerias,humano
+Que lugares tem no intercâmbio da ufms?,destino_parcerias,humano
+"Bom dia, quais universidades possuem parceria com a UFMS e apresentam-se viáveis para intercâmbio estudantil?",destino_parcerias,humano
+Que lugares eu poderia fazer um bom intercâmbio?,destino_parcerias,humano
+Quais países e universidades estão disponíveis para participar do programa?,destino_parcerias,humano
+Como eu posso saber se alguma universidade aceita meu currículo para um intercâmbio?,destino_parcerias,humano
+Eu perguntaria quais países oferecem boas oportunidades de intercâmbio e quais são os melhores para estudantes brasileiros,destino_parcerias,humano
+quais países tem parceria com a ufms? posso escolher qualquer universidade?,destino_parcerias,humano
+"passei no intercâmbio, e agora? quais documentos preciso levar e o que tenho que resolver antes de viajar?",documentos_viagem,humano
+o que é essencial para levar pra um intercâmbio?,documentos_viagem,humano
+"o que devo levar comigo alem de meu basico como roupas, computador e medicamentos?",documentos_viagem,humano
+o que levar?,documentos_viagem,humano
+"Quanto custa, como conseguir e o que é necessário para conseguir viajar",documentos_viagem,humano
+Quais documentos eu preciso para fazer um intercâmbio?,documentos_viagem,humano
+A região possui alguma regra com questão à saúde publica que exige que eu tome alguma vacina com antecedência?,documentos_viagem,humano
+"Oque levar num intercâmbio para (país,cidade ou estado)",documentos_viagem,humano
+Oque devo levar para meu intercâmbio de 6 meses?,documentos_viagem,humano
+Oque é preciso preparar antes de viajar para o intercâmbio?,documentos_viagem,humano
+"Fazer um checklist resumido e breve do essencial para antes da viagem, incluindo documentos, estilos de roupas ou conhecimentos.",documentos_viagem,humano
+o que levar para intercâmbio em tal lugar,documentos_viagem,humano
+Preciso de autorização de viagem ?,documentos_viagem,humano
+Oque eu preciso levar pra um intercâmbio?,documentos_viagem,humano
+Qual visto preciso,documentos_viagem,humano
+quais documentos eu preciso levar,documentos_viagem,humano
+Coisas fundamentais p intercâmbio em tal país,documentos_viagem,humano
+Quais os itens essenciais para o intercâmbio?,documentos_viagem,humano
+Qual é a forma mais adequada de aprender inglês?,fora_dominio,humano
+Quais as universidades federais no Brasil que possuem meu curso,fora_dominio,humano
+faça um teste a nível avançado comigo com este idioma,fora_dominio,humano
+Qual o custo de vida de tal lugar?,fora_dominio,humano
+Qual o significado da cor amarela nas estradas ?,fora_dominio,humano
+Será que o Grêmio vai conseguir ganhar a Copa do Brasil?,fora_dominio,humano
+Qual país tem maior público universitário?,fora_dominio,humano
+Qual a cidade com melhor custo benefício e mais barata para viver sem trabalhar,fora_dominio,humano
+Como eu posso melhorar meu inglês,fora_dominio,humano
+Tem transporte público ?,fora_dominio,humano
+"Qual os melhores países pra intercambio, tendo em vistar a serem os mais baratos tambem?",fora_dominio,humano
+melhor faculdade de economia do mundo,fora_dominio,humano
+Wifi daqui é bom?,fora_dominio,humano
+"Por favor, teste meu inglês para saber se estou proficiente para fazer um intercâmbio em inglês. Se ainda não estiver, vamos montar um plano para eu estudar e melhorar.",fora_dominio,humano
+Quais são os benefícios de estudar em outro país?,fora_dominio,humano
+Eu tenho dúvidas sobre como funciona o sistema de aproveitamento de disciplinas,fora_dominio,humano
+Vc conseguiria me ajudar a aprender inglês para o meu intercâmbio?,fora_dominio,humano
+Como aumentar minhas notas e qual meio utilizo pra isso,fora_dominio,humano
+Qual país referência p medicina de saúde da mulher?,fora_dominio,humano
+Pesquisa de gastos médio por mês.,fora_dominio,humano
+"Se apesar dessas dificuldades há outros atalhos possíveis para que eu atenda as condições, caso contrário o que eu deveria fazer (de maneira geral)",fora_dominio,humano
+Como posso elevar meu inglês de maneira rápida e suficiente?,fora_dominio,humano
+qual a melhor federal para o meu curso,fora_dominio,humano
+"Dicas para fazer quando chegar na minha cidade escolhida, oq levar na mala e quais planos fazer ",fora_dominio,humano
+Existe alguma lei que eu deva saber ?,fora_dominio,humano
+Quais são os pontos turísticos ou populares da região,fora_dominio,humano
+Custo de transporte;,fora_dominio,humano
+Como e onde posso recolher informações sobre o intemcabio x da empresa y?,fora_dominio,humano
+Qual o clima da região neste lugar que estou indo fazer o intercâmbio?,fora_dominio,humano
+Qual o custo de vida médio da região,fora_dominio,humano
+Chat gostaria que me passasse uma planilha com as informações mais importantes sobre as matérias por semestre,fora_dominio,humano
+como posso me enturmar com novas pessoas em uma linguagem diferente?,fora_dominio,humano
+"Chat, como mudar minha nota pra passar na faculdade?",fora_dominio,humano
+Meu inglês é ruim. Perguntaria métodos rápido de aprendizagem,fora_dominio,humano
+Qual local é uma boa opção de emprego para mim intercambista,fora_dominio,humano
+Quais estruturas a cidade que quero ir tem para intercambio?,fora_dominio,humano
+no que me agregaria,fora_dominio,humano
+quais lugares são mais famosos e com melhores vistas,fora_dominio,humano
+"Chat, sabe me dizer o valor médio de custo de vida de uma pessoa dessa cidade?",fora_dominio,humano
+o povo de la tem fama de ser rude com turista ?,fora_dominio,humano
+quais são as comidas típicas,fora_dominio,humano
+Existe algum curso do idioma do país de graça disponível pela universidade?,fora_dominio,humano
+Qual a moeda local e sua comparação com o real?,fora_dominio,humano
+Como me preparar para um intercambio em um pais frio/quente?,fora_dominio,humano
+Costumes e tradições do local essenciais para saber.,fora_dominio,humano
+Oque eu preciso saber sobre um intercâmbio?,inscricao,humano
+Como eu consigo fazer intercâmbio?,inscricao,humano
+Como entra no processo da ufms para intercâmbio onde e quando,inscricao,humano
+como entrar no processo,inscricao,humano
+O que preciso para fazer o intercâmbio,inscricao,humano
+Para me explicar as etapas do processo.,inscricao,humano
+"quero participar do intercâmbio, o que preciso fazer?",inscricao,humano
+Justamente como e quando entrar,inscricao,humano
+Quando começam as atividades?,inscricao,humano
+Quais são as etapas do processo seletivo?,inscricao,humano
+Como faço para me inscrever e quais as datas para a inscrição?,inscricao,humano
+Com quem falo pra ter mais informações?,inscricao,humano
+Qual o prazo para inscrição?,inscricao,humano
+como funciona a seleção para o intercambio?,inscricao,humano
+"quais seriam as datas para inscrição, quando sai o processo para ingressar ",inscricao,humano
+Oque é preciso para fazer intercâmbio?,inscricao,humano
+Como eu faço para conseguir ir em um intercâmbio,inscricao,humano
+Consigo me inscrever para quais programas ?,inscricao,humano
+Qual o processo tem q se realizar para isso,mobilidade_nacional,humano
+Quais faculdades federais aceitam intercâmbio com base na minha graduação atual.,mobilidade_nacional,humano
+Existe algum programa de intercambio entre universidades federais dentro do país?,mobilidade_nacional,humano
+Como fazer sanduíche em outra universidade Federal?,mobilidade_nacional,humano
+Como funciona para passar um semestre em outra faculdade federal? Quais as burocracias?,mobilidade_nacional,humano
+Como posso migrar meu curso para outras universidades federais sem perder meu histórico? Quero ter novas experiências,mobilidade_nacional,humano
+eu posso fazer um intercâmbio em outra universidade federal ao invés de ir para outro país?,mobilidade_nacional,humano
+Existe a chance de fazer um semestre do meu curso por meio de outra universidade?,mobilidade_nacional,humano
+Tem como fazer 1 semestre em outra facul br?,mobilidade_nacional,humano
+federais que permitem permuta temporária,mobilidade_nacional,humano
+tem como estudar um semestre em outra federal sem precisar sair do brasil?,mobilidade_nacional,humano
+Existe alguma universidade brasileira q eu possa pagar um semestre do meu curso?,mobilidade_nacional,humano
+Existe algum programa que permita estudar por um semestre em outra universidade federal do Brasil?,mobilidade_nacional,humano
+Quais universidades aceitam intercâmbios semestrais,mobilidade_nacional,humano
+existe intercâmbio nacional?,mobilidade_nacional,humano
+Domina algum idioma?,proficiencia,humano
+Questões sobre linguagens locais do local onde pretendo fazer o intercâmbio (no contexto que já defini aonde será),proficiencia,humano
+"meu ingles não é muito bom, consigo fazer intercâmbio mesmo assim? precisa ter certificado?",proficiencia,humano
+Qual nivel de ingles preciso falar pra fazer um intercambio?,proficiencia,humano
+Posso fazer sem dominar o inglês?,proficiencia,humano
+tem que saber perfeitamente inglês p ir p la?,proficiencia,humano
+como saber se meu imngles é suficiente para esse intercâmbio,proficiencia,humano
+O inglês é suficiente para o pais do intercâmbio da ufms?,proficiencia,humano
+Existe algum nível mínimo de ingles ou da língua local?,proficiencia,humano
+Meu nível de inglês é suficiente para participar do intercâmbio ou preciso fazer algum curso antes?,proficiencia,humano
+Um inglês intermediário é suficiente para um intercâmbio?,proficiencia,humano
+eu perguntaria qual nível de inglês é necessário para me dar bem,proficiencia,humano
+O quanto de ingles preciso para conseguir me virar em um intercambio?,proficiencia,humano
+Tem algum nível de certificação obrigatória?,proficiencia,humano
+qual os idiomas e níveis de certificação aceitos parq realizar intercâmbio?,proficiencia,humano
+Qual o Grau de escolaridade?,requisitos,humano
+Qual idade?,requisitos,humano
+O nível de escolaridade,requisitos,humano
+Algum intercâmbio está já em meu alcance,requisitos,humano
+Como faço pra conferir a compatibilidade de grade?,requisitos,humano
+Qual requisito é obrigatório?,requisitos,humano
+Requisitos para fazer um intercâmbio,requisitos,humano
+Qual o critério de seleção?,requisitos,humano
+Quais os requisitos e oq preciso fazer para me encaixar,requisitos,humano
+quais são as condições pra participar do intercâmbio?,requisitos,humano
+quais são as minhas chances de passar e oque preciso fazer para conseguir participar,requisitos,humano
+se eu tiver algumas notas baixas ainda posso tentar?,requisitos,humano
+preciso estar em qual semestre pra participar?,requisitos,humano
+"Com o meu histórico, eu consigo participar do intercâmbio? ",requisitos,humano
+Qual é a nota de corte pra entrar,requisitos,humano
+Como que posso verificar se atendo a todos aos critérios exigidos pelo programa?,requisitos,humano
+Para me explicar os requisitos do processo.,requisitos,humano
+Qual é a média necessária?,requisitos,humano
