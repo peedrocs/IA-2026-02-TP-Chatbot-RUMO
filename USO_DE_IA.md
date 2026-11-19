@@ -13,9 +13,8 @@
 
 | Ferramenta (nome e versão/modelo) | Como acessaram | Quem usou |
 |---|---|---|
-| _Exemplo: OpenRouter, modelo openai/gpt-6-luna_ | _chave do grupo, via código_ | _todos_ |
-| _Exemplo: ChatGPT (versão gratuita)_ | _navegador_ | _Fulana_ |
-| _Claude Code_ | _local_ | _Pedro_,_Guilherme_ |
+| _OpenRouter, modelo openai/gpt-6-luna_ | _chave do grupo, via código_ | _todos_ |
+| _Claude Code_ | _local_ | _todos_ |
 
 ## 2. Usos, um por linha
 
@@ -48,5 +47,7 @@ frases do teste, análise dos erros, conclusões).
 
 ## 4. Reflexão (2 a 4 frases)
 
-
+A IA nos auxiliou principalmente na parte do código, tanto do pandas para realizar a análise exploratória quanto para analisar os resultados obtidos com os classificadores.
+Como era algo que não tinhamos experiência antes foi um facilitador para aprendermos a usar as bibliotecas necessárias.
+A verificação foi sendo realizada por quem estava usando na hora e caso aparecesse alguma dúvida nós discutiamos entre a gente para ver o resultado gerado era válido.
 TODO: onde a IA ajudou, onde atrapalhou ou errou, e como vocês verificaram o que ela produziu.
