@@ -35,6 +35,8 @@
 | 11 | _Declaração de uso de IA_ | _Explicou como preencher o USO_DE_IA.md e como fazer commit_ | _"como eu faço para declarar o uso de IA no github?"_ | _Seguimos as instruções e preenchemos o arquivo nós mesmos_ |
 | 12 | _Utilização da biblioteca sklearn_ | _Nos auxiliou como utilizar a biblioteca sklearn, como utilizar os classificadores, como usar o GridSearchCV_ | _como utilizo os classificadores KNN, NB, DT, SVM linear, Regressão logística e MLP. Como realizo a validação cruzada com o GridSearchCV_ | _Seguimos as orientações e testamos e refinamos os resultados que obtivemos_ |
 | 13 | _Geração dos scripts para gerar gráficos e tabelas_ | _Auxiliou a gerar os gráficos para tanto para análise dos hiperparâmetros, quanto para gerar as tabelas com o desempenho de cada classificador sobre as representações_ | _Como gero os gráficos para análise do resultado do GridSearchCV e gero a matriz de confusão_ | _Entendemos os gráficos e validamos nossa escolha_ |
+| 14 | _Escrita do artigo_ | _Montou o rascunho do artigo no modelo SBC (LaTeX e PDF) a partir da seção 9.1 do enunciado e do que já estava no repositório: estrutura das seções, texto, tabelas, figura do fluxo do bot e referências. Marcou como "PENDENTE" as seções ainda não concluídas_ | _"baseado nas instruções sobre a confecção do artigo na seção 9.1, monte este artigo seguindo todas as instruções e o modelo do artigo localizados lá, faça de maneira objetiva e clara (...); se tiver alguma seção que não foi concluída ainda, adicione o nome da seção, o que ela precisa ter e o que ainda falta"_ | _Revisamos o texto, conferimos os números e as frases citadas com os dados e o notebook, e completamos as seções pendentes_ |
+
 
 
 
