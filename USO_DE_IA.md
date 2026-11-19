@@ -25,14 +25,17 @@
 | 2 | _Chatbot_ | _Redige as respostas das intenções e do chitchat_ | _prompts em `chatbot/llm.py` + persona do `grupo.yaml`_ | _Ajustamos a persona 3 vezes após testes (seção X do artigo)_ |
 | 3 | _Código_ | _Sugeriu a função que plota a curva de validação_ | _"como plotar o resultado do GridSearchCV em função de C"_ | _Adaptamos nomes e eixos; entendemos e testamos_ |
 | 4 | _Escrita_ | _Revisou a gramática da Introdução_ | _"revise a gramática sem mudar o conteúdo: ..."_ | _Aceitamos parte das sugestões_ |
+|---|---|---|---|---|
+|---|---|---|---|---|
 | 5 | _Tratamento das Fontes_ | _Limpou os arquivos HTML5 e transformou para MD e transcreveu os arquivos pdf escaneados e colocou em um MD_ | _Transcreva o conteúdo presente nesses arquivos sem mudar o conteúdo e transforme em MarkDown_ | _verificamos se as informações estavam de acordo com os arquivos base_ |
 | 6 |_Fontes fictícias_| _Gerou documentos ficticíos baseados nos documentos originais coletados_ | _Utilizando as fontes coletadas como base, crie documentos markdown fictícios para cada uma das intenções buscando aumentar a quantidade de fontes a serem analisadas pelo chatbot crie dois documentos para cada intenção_| _Foram validados para ver se contribuíam na resposta do modelo_ |
 | 7 | _Geração de dados para treino_ | _Foi utilizado o script de gerar dados que foi disponibilizado_ | _ver `dados/prompts_llm.md`_ | _Analisamos as frases e escolhemos algumas para entrar nos dados de treino, foram criadas 1615, foram escolhidas por volta de 170_ |
-analise exploratoria
 | 8 | _Ambiente de desenvolvimento_ | _Ajudou a preparar e configurar o ambiente do VS Code para rodar o projeto_ | _Resumo: "prepare o meu ambiente do VS Code a partir do link do github que te enviei,não faça nada além disso apenas prepare para que eu confira sozinho"_ | _Seguimos os passos e conferimos que o projeto rodava_ |
 | 9 | _Uso do terminal_ | _Ensinou a usar os comandos do terminal (git, python)_ | _Resumo: "me ensine a utilizar os comandos no terminal, não rode-os por mim, apenas me ensine passo a passo e quais comandos devo utilizar"_ | _Aprendemos os comandos e executamos nós mesmos_ |
 | 10 | _Conferência dos dados de treino_ | _Conferiu os dados adicionados em `dados/treino.csv`_ | _Resumo: "confira os dados que foram adicionados ao arquivo 'dados/treino.csv' e siga as restrições do professor para corrigi-los"_ | _Revisamos o que foi apontado e decidimos o que corrigir_ |
 | 11 | _Declaração de uso de IA_ | _Explicou como preencher o USO_DE_IA.md e como fazer commit_ | _"como eu faço para declarar o uso de IA no github?"_ | _Seguimos as instruções e preenchemos o arquivo nós mesmos_ |
+| 12 | _Utilização da biblioteca sklearn_ | _Nos auxiliou como utilizar a biblioteca sklearn, como utilizar os classificadores, como usar o GridSearchCV_ | _como utilizo os classificadores KNN, NB, DT, SVM linear, Regressão logística e MLP. Como realizo a validação cruzada com o GridSearchCV_ | _Seguimos as orientações e testamos e refinamos os resultados que obtivemos_ |
+| 13 | _Geração dos scripts para gerar gráficos e tabelas_ | _Auxiliou a gerar os gráficos para tanto para análise dos hiperparâmetros, quanto para gerar as tabelas com o desempenho de cada classificador sobre as representações_ | _Como gero os gráficos para análise do resultado do GridSearchCV e gero a matriz de confusão_ | _Entendemos os gráficos e validamos nossa escolha_ |
 
 
 
