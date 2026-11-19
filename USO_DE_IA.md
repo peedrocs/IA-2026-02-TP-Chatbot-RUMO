@@ -15,7 +15,7 @@
 |---|---|---|
 | _Exemplo: OpenRouter, modelo openai/gpt-6-luna_ | _chave do grupo, via código_ | _todos_ |
 | _Exemplo: ChatGPT (versão gratuita)_ | _navegador_ | _Fulana_ |
-| _Claude Code_ | _local_ | _Pedro_ |
+| _Claude Code_ | _local_ | _Pedro_,_Guilherme_ |
 
 ## 2. Usos, um por linha
 
@@ -29,6 +29,11 @@
 | 6 |_Fontes fictícias_| _Gerou documentos ficticíos baseados nos documentos originais coletados_ | _Utilizando as fontes coletadas como base, crie documentos markdown fictícios para cada uma das intenções buscando aumentar a quantidade de fontes a serem analisadas pelo chatbot crie dois documentos para cada intenção_| _Foram validados para ver se contribuíam na resposta do modelo_ |
 | 7 | _Geração de dados para treino_ | _Foi utilizado o script de gerar dados que foi disponibilizado_ | _ver `dados/prompts_llm.md`_ | _Analisamos as frases e escolhemos algumas para entrar nos dados de treino, foram criadas 1615, foram escolhidas por volta de 170_ |
 analise exploratoria
+| 8 | _Ambiente de desenvolvimento_ | _Ajudou a preparar e configurar o ambiente do VS Code para rodar o projeto_ | _Resumo: "prepate o meu ambiente do VS Code a partir do link do github que te enviei,não faça nada além disso apenas prepare para que eu confira sozinho"_ | _Seguimos os passos e conferimos que o projeto rodava_ |
+| 9 | _Uso do terminal_ | _Ensinou a usar os comandos do terminal (git, python)_ | _Resumo: "me ensine a utilizar os comandos no terminal, não rode-os por mim, apenas me ensine passo a passo e quais comandos devo utilizar"_ | _Aprendemos os comandos e executamos nós mesmos_ |
+| 10 | _Conferência dos dados de treino_ | _Conferiu os dados adicionados em `dados/treino.csv`_ | _Resumo: "confira os dados que eu adicionei"_ | _Revisamos o que foi apontado e decidimos o que corrigir_ |
+| 11 | _Declaração de uso de IA_ | _Explicou como preencher o USO_DE_IA.md e como fazer commit_ | _"como eu faço para declarar o uso de IA no github?"_ | _Seguimos as instruções e preenchemos o arquivo nós mesmos_ |
+
 
 
 ## 3. O que NÃO foi feito com IA
