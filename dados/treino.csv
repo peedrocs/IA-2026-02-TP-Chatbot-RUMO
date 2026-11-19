@@ -763,7 +763,7 @@ Com quanta antecedência devo verificar a validade do meu passaporte antes de vi
 Como posso descobrir se o país de destino exige vacinas específicas para estudantes estrangeiros?,documentos_viagem,llm
 "Além do visto e do passaporte, quais comprovantes podem ser solicitados na imigração ao chegar ao destino?",documentos_viagem,llm
 "Meu passaporte vence daqui a 5 meses, serve pra entrar no país?",documentos_viagem,llm
-Como faço pra renovar o passaporte?,documentos_viagem,llm
+Como faço pra renovar o passaporte?,fora_dominio,llm
 Tem algum tipo de cobertura que o seguro precisa ter?,documentos_viagem,llm
 Como descubro as exigências de entrada do país de destino?,documentos_viagem,llm
 Dá pra viajar enquanto o visto ainda tá em análise?,documentos_viagem,llm
