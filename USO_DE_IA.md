@@ -15,7 +15,7 @@
 |---|---|---|
 | _OpenRouter, modelo openai/gpt-6-luna_ | _chave do grupo, via código_ | _todos_ |
 | _Claude Code_ | _local_ | _todos_ |
-| _Claude Code, modelo Claude Fable 5.2_ | _local_ | _Lucas (usos 15 a 19)_ |
+| _Claude Code, modelo Claude Fable 5.2_ | _local_ | _Lucas (usos 15 a 20)_ |
 
 ## 2. Usos, um por linha
 
@@ -40,6 +40,7 @@
 | 17 | _Revisão dos textos do notebook_ | _Comparou os textos (markdown) de cada seção com as saídas das células e listou os números e argumentos desatualizados. Na etapa final, corrigiu quatro trechos que restavam, o endereço do repositório na primeira célula, recolocou a seção 10 e escreveu o texto de análise do aprofundamento A3 a partir das saídas_ | _"todas as celulas de markdown estao com as informaçoes corretas de codigo?"; "liste todas as mudanças que eu preciso fazer nas celulas de markdown"; "faça o que consegue do que falta"_ | _Corrigimos os textos no notebook e conferimos os números com as saídas_ |
 | 18 | _Aprofundamento A3_ | _Gerou uma primeira versão do código do aprofundamento (comparação por origem das frases e curva de aprendizado), ensaiada sem usar o conjunto de teste_ | _"nós escolhemos o A3"_ | _Adaptamos o código (sorteio por intenção e curvas separadas por origem) e executamos no notebook_ |
 | 19 | _Revisão final do artigo e entrega_ | _Conferiu os números do artigo com o notebook e os dados (corrigiu "160 prompts" para 180), preencheu a contribuição do integrante Lucas com o texto ditado por ele, incluiu estes usos na tabela de IA do artigo, gerou o `relatorio/relatorio.pdf`, acrescentou ao README o resumo do trabalho e fez os commits. Também ajudou com o Git (atualizar o repositório local) e com a seleção do kernel no VS Code_ | _"faça o que consegue do que falta, declare (...) Coloque o relatório no repositório"_ | _Revisamos o PDF final e os arquivos alterados antes da entrega_ |
+| 20 | _Novo visual dos slides_ | _Refez o visual dos 16 slides do vídeo (cores, tipografia, diagrama e gráficos redesenhados a partir dos mesmos dados), mantendo o conteúdo e a ordem de cada slide, e gerou o PDF_ | _"refaça esse slide mantendo as mesmas informações em cada slide, só que mudando completamente o estilo (...) não deixe nada de fora nem mude a ordem"_ | _Conferimos slide a slide com a versão anterior antes de gravar_ |
 
 
 
