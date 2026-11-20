@@ -2,6 +2,68 @@
 
 **Inteligência Artificial · Graduação · FACOM/UFMS · Prof. Bruno Nogueira**
 
+---
+
+## O trabalho do grupo: chatbot RUMO
+
+**Tema:** chatbot de mobilidade acadêmica e intercâmbio da UFMS.
+**Integrantes:** Guilherme Carvalho de Oliveira, Lucas dos Reis Schweich e Pedro Cavalcante Sanches.
+
+O bot responde sobre sete intenções: `proficiencia`, `custos_auxilio`, `destino_parcerias`,
+`mobilidade_nacional`, `documentos_viagem`, `inscricao` e `requisitos`.
+
+### Decisões do grupo
+
+| Item | Decisão |
+|---|---|
+| Dados de treino | 1.270 frases: 303 escritas por pessoas (formulário) e 967 geradas por LLM e revisadas |
+| Dados de teste | 199 frases, todas escritas por pessoas, sem repetição no treino |
+| Base de conhecimento | 29 documentos em `documentos/`, com as fontes em `documentos/FONTES.md` |
+| Representação | TF-IDF de n-gramas de caracteres, nos dois estágios |
+| Classificador de escopo | regressão logística, `C = 30`, n-gramas de 3 a 6, `class_weight="balanced"` |
+| Classificador de tema | regressão logística, `C = 30`, n-gramas de 2 a 5, `class_weight="balanced"` |
+| Limiar de confiança do tema | 0,42 (escolhido na validação cruzada; seção 6 do notebook) |
+| LLM que redige as respostas | `openai/gpt-6-luna`, via OpenRouter |
+| Aprofundamento | A3, origem dos dados (humanas × LLM × mistura, com curva de aprendizado) |
+
+Todas as escolhas foram feitas com validação cruzada estratificada de 5 partes, só no treino.
+O teste foi usado uma única vez, no final.
+
+### Resultados
+
+| Métrica (F1 macro) | Validação cruzada | Teste |
+|---|---|---|
+| Escopo | 0,900 | 0,806 |
+| Tema (com escopo perfeito) | 0,945 | 0,756 |
+| Ponta a ponta | – | 0,738 |
+
+No teste, o falso aceite ponta a ponta foi de 12,7% e a falsa recusa, de 12,5%. A análise completa
+está no notebook `notebooks/01_trabalho_grupo.ipynb` e no artigo `relatorio/relatorio.pdf`.
+
+### Como reproduzir
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate             # Linux/macOS: source .venv/bin/activate
+pip install -r requirements.txt
+
+# reexecuta todo o trabalho e regera modelos/escopo.joblib e modelos/tema.joblib
+jupyter lab notebooks/01_trabalho_grupo.ipynb    # Kernel → Restart & Run All
+
+python scripts/avaliar.py              # avaliação padronizada no teste (sem LLM)
+python scripts/verificar_entrega.py    # deve terminar com 0 erro(s)
+python scripts/conversar.py --depurar  # conversa com o bot (use --sem-llm se não tiver a chave)
+```
+
+A seção 8 do notebook e o `conversar.py` usam o LLM e precisam da chave do OpenRouter no `.env`
+(veja a seção 2 abaixo). O resto roda sem chave.
+
+O registro de uso de IA generativa está em `USO_DE_IA.md` e o link do vídeo, em `LINKS.txt`.
+
+O restante deste arquivo é o guia do código base da disciplina.
+
+---
+
 Código base do trabalho em grupo. Vocês vão construir um chatbot para um tema do
 cotidiano universitário. A cada mensagem, **dois classificadores treinados pelo
 grupo** decidem **se** o bot deve responder e **sobre o quê**; depois, o bot
